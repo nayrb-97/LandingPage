@@ -147,7 +147,7 @@
   </div>
 </section>
 
-  <!-- Sección de Testimonios -->
+  <!-- Sección de Comentarios de Clientes -->
 <section class="container my-5">
   <h2 class="text-center mb-4">Lo que dicen nuestros clientes</h2>
   <div class="row">
@@ -184,6 +184,57 @@
   </div>
 </section>
 
+  <!-- Sección de Formulario de Contacto -->
+<section class="container my-5">
+  <h2 class="text-center mb-4">Contáctanos</h2>
+  <form id="formularioContacto">
+    <!-- Nombre -->
+    <div class="mb-3">
+      <label for="nombre" class="form-label">Nombre Completo</label>
+      <input type="text" class="form-control" id="nombre" placeholder="Tu nombre completo" required>
+    </div>
+    
+    <!-- Correo Electrónico -->
+    <div class="mb-3">
+      <label for="correo" class="form-label">Correo Electrónico</label>
+      <input type="email" class="form-control" id="correo" placeholder="nombre@ejemplo.com" required>
+    </div>
+    
+    <!-- Teléfono -->
+    <div class="mb-3">
+      <label for="telefono" class="form-label">Teléfono</label>
+      <input type="tel" class="form-control" id="telefono" placeholder="(XXX) XXX-XXXX" required>
+    </div>
+
+    <!-- Selección de Motivo -->
+    <div class="mb-3">
+      <label for="motivo" class="form-label">Motivo del Contacto</label>
+      <select class="form-select" id="motivo" required>
+        <option value="">Selecciona el motivo</option>
+        <option value="consulta">Consulta general</option>
+        <option value="soporte">Soporte técnico</option>
+        <option value="colaboracion">Colaboración</option>
+        <option value="otros">Otros</option>
+      </select>
+    </div>
+    
+    <!-- Mensaje -->
+    <div class="mb-3">
+      <label for="mensaje" class="form-label">Mensaje</label>
+      <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+    </div>
+    
+    <!-- Aceptación de política de privacidad -->
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="politica" required>
+      <label class="form-check-label" for="politica">Acepto la política de privacidad.</label>
+    </div>
+
+    <!-- Botón de envío -->
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
+</section>
+  
   <!-- Sección de Preguntas Frecuentes -->
 <section class="container my-5">
   <h2 class="text-center mb-4">Preguntas Frecuentes</h2>
