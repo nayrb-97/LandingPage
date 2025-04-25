@@ -1,0 +1,57 @@
+body {
+    background-color: lightblue;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .carousel-caption h5 {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .carousel-caption p {
+    font-size: 1.1rem;
+    color: #ddd;
+  }
+  
+
+  #carruselPrincipal .carousel-item img {
+    height: 700px; 
+    object-fit: cover;
+  }
+  
+
+  /* Estilos para los testimonios */
+.card {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  border-radius: 15px 15px 0 0;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.card-text {
+  font-style: italic;
+  color: #555;
+}
+
